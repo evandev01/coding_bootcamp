@@ -1,0 +1,58 @@
+body {
+	width: 50%;
+	margin: auto;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin: 0.5rem;
+	width: 150px;
+	height: 50px;
+}
+
+h1,
+h2,
+h3,
+p {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+.question-div {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.question-div.active {
+	display: block;
+}
+
+.score-div {
+	display: none;
+}
+
+.welcome.inactive {
+	display: none;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.timer h3 {
+	text-align: right;
+	margin-right: 2rem;
+}
+
+ul {
+	list-style: none;
+}
